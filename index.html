@@ -130,9 +130,13 @@
         <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="images/banner/penut.jpg" style="object-position: left;" alt="Image">
+                    <img class="w-100" src="images/banner/1.jpg" style="object-position: left;" alt="Image">
 
                 </div>
+                <!-- <div class="carousel-item  ">
+                    <img class="w-100" src="images/banner/penut.jpg" style="object-position: left;" alt="Image">
+
+                </div> -->
                 <div class="carousel-item  ">
                     <img class="w-100" src="images/banner/cashuw.jpg" style="object-position: left;" alt="Image">
 
@@ -159,7 +163,7 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <img src="images/1.png" height="auto" width="100%" class="position-absolute start-0 top-50 d-none d-lg-block" style="z-index: 1;" alt="">
+    <img src="images/1.png" height="auto" width="100%" class="position-absolute start-0   d-none d-lg-block" style="z-index: 1;bottom: -1%;" alt="">
    </section>
     
     <!-- Carousel End -->
@@ -175,7 +179,7 @@
                     <h1 class="mb-5">About Us</h1>
                     <p class="jutify">Welcome to Ganapathy Export And Import, a premier name in the international export and import industry. We specialize in sourcing and supplying high-quality agricultural products to customers around the globe. Since our inception, we have worked tirelessly to build a reputation for delivering excellence, trust, and reliability in all our business dealings.</p>
                     <p>At Ganapathy Export And Import, we believe in the power of nature’s finest produce to enrich the lives of people around the world. Our product portfolio includes a variety of fresh, nutritious, and high-quality agricultural goods.</p>
-                    <a href="" class="btn btn-primary px-5 py-2"> About Us</a>
+                    <a href="about.html" class="btn btn-primary px-5 py-2"> About Us</a>
                 </div>
                 <div class="col-lg-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
@@ -265,7 +269,7 @@
                         <h4 class="text- ">Quality Sourcing</h4>
                         <p>Quality is at the heart of everything we do. We are dedicated to sourcing the finest agricultural products directly from trusted farmers and suppliers who prioritize quality and sustainable practices. Our team carefully inspects each product to ensure it meets stringent standards, ensuring that only the best reaches our customers. We work closely with farmers who share our commitment to excellence, and we continuously monitor product quality at every stage of the process.</p>
                         <!-- <p>We meticulously select our ingredients from trusted local farmers, ensuring that every product meets our high standards of quality and sustainability. This commitment guarantees you receive only the best.</p> -->
-                        <a href=".php">Read More</a>
+                        <a href="service.html">Read More</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 my-3">
@@ -274,7 +278,7 @@
                         <h4>Custom Orders</h4>
                         <p>At <b>Ganapathy Export And Import</b>, we understand that every customer’s needs are unique. That’s why we offer custom orders tailored to your specific requirements. Whether you need products in unique packaging, specific quantities, or require special processing, we are equipped to meet your demands. Our flexible approach allows us to provide solutions for businesses of all sizes, from small retailers to large distributors. Let us know your needs, and we’ll deliver products that are tailored to your exact specifications.</p>
                         <!-- <p>Looking for something specific? We provide custom orders tailored to your needs. Whether you’re a chef, a retailer, or a health-conscious individual, we can accommodate bulk purchases or unique product requests.</p> -->
-                        <a href=" ">Read More</a>
+                        <a href="service.html">Read More</a>
                     </div>
                 </div>
                 <div class="col-lg-4 my-3 col-md-6">
@@ -283,7 +287,7 @@
                         <h4>Customer Support</h4>
                         <p>We believe in building strong relationships with our clients through exceptional customer support. From your initial inquiry to post-purchase assistance, our dedicated team is always ready to help. We offer personalized guidance, answer your questions, and ensure that your orders are fulfilled efficiently. With a focus on transparency and responsiveness, we are here to support you every step of the way. No question is too small, and no concern is too big—we are here to ensure that your experience with us is smooth, reliable, and enjoyable.</p>
                         <!-- <p>Our dedicated customer support team is here to assist you. Whether you have questions about our products or need assistance with your order, we’re just a message away.</p> -->
-                        <a href=".php">Read More</a>
+                        <a href="service.html">Read More</a>
                     </div>
                 </div>
             </div>
@@ -477,27 +481,7 @@
             </div>
         </div>
     </div>
-    <!-- Video Modal Start -->
-    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content rounded-0">
-                <div class="modal-header">
-                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <!-- 16:9 aspect ratio -->
-                    <div class="ratio ratio-16x9">
-                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen
-                            allowscriptaccess="always" allow="autoplay"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Video Modal End -->
-
+   
 
     <!-- Service Start -->
     <div class="container-fluid container-service py-5">
@@ -514,7 +498,7 @@
                         <h5 class=" mt-4 mb-2">Peanut</h4>
                         <!-- <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus
                                 augue.</p> -->
-                        <a class="btn btn-dark px-3 mt-2" href="">Enquiry Now<i
+                        <a class="btn btn-dark px-3 mt-2" href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquiry Now<i
                                 class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
@@ -524,7 +508,7 @@
                         <h5 class=" mt-4 mb-2">Muskmelon</h4>
                         <!-- <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus
                                 augue.</p> -->
-                        <a class="btn btn-dark px-3 mt-2" href="">Enquiry Now<i
+                        <a class="btn btn-dark px-3 mt-2" href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquiry Now<i
                                 class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
@@ -534,7 +518,7 @@
                         <h5 class=" mt-4 mb-24">Cashew</h4>
                         <!-- <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus
                                 augue.</p> -->
-                        <a class="btn btn-dark px-3 mt-2" href="">Enquiry Now<i
+                        <a class="btn btn-dark px-3 mt-2" href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquiry Now<i
                                 class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
@@ -544,7 +528,7 @@
                         <h5 class=" mt-4 mb-2">Coconut</h4>
                         <!-- <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus
                                 augue.</p> -->
-                        <a class="btn btn-dark px-3 mt-2" href="">Enquiry Now<i
+                        <a class="btn btn-dark px-3 mt-2" href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquiry Now<i
                                 class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
@@ -554,7 +538,7 @@
                         <h5 class=" mt-4 mb-2">Ground Nut</h4>
                         <!-- <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus
                                 augue.</p> -->
-                        <a class="btn btn-dark px-3 mt-2" href="">Enquiry Now<i
+                        <a class="btn btn-dark px-3 mt-2" href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquiry Now<i
                                 class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
@@ -564,7 +548,7 @@
                         <h5 class=" mt-4 mb-4">Grapes</h4>
                         <!-- <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus
                                 augue.</p> -->
-                        <a class="btn btn-dark px-3 mt-2" href="">Enquiry Now<i
+                        <a class="btn btn-dark px-3 mt-2" href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquiry Now<i
                                 class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
@@ -575,7 +559,7 @@
                         <h5 class=" mt-4 mb-2">Sesame seeds White</h4>
                         <!-- <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus
                                 augue.</p> -->
-                        <a class="btn btn-dark px-3 mt-2" href="">Enquiry Now<i
+                        <a class="btn btn-dark px-3 mt-2" href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquiry Now<i
                                 class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
@@ -585,7 +569,7 @@
                         <h5 class=" mt-4 mb-2">Sesame seeds Black</h4>
                         <!-- <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus
                                 augue.</p> -->
-                        <a class="btn btn-dark px-3 mt-2" href="">Enquiry Now<i
+                        <a class="btn btn-dark px-3 mt-2" href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Enquiry Now<i
                                 class="bi bi-chevron-double-right ms-1"></i></a>
                     </div>
                 </div>
@@ -632,32 +616,32 @@
                     <div class="row g-3">
                         <div class="col-sm-6">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                <input type="text" class="form-control name" id="name" placeholder="Your Name">
                                 <label for="name">Your Name</label>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="form-floating">
-                                <input type="email" class="form-control" id="mail" placeholder="Your Email">
+                                <input type="email" class="form-control email" id="mail" placeholder="Your Email">
                                 <label for="mail">Your Email</label>
                             </div>
                         </div>
                         <div class="col-sm-12">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="mobile" placeholder="Your Mobile">
+                                <input type="text" class="form-control phone" id="mobile" placeholder="Your Mobile">
                                 <label for="mobile">Your Mobile</label>
                             </div>
                         </div>
 
                         <div class="col-12">
                             <div class="form-floating">
-                                <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                <textarea class="form-control message" placeholder="Leave a message here" id="message"
                                     style="height: 130px"></textarea>
                                 <label for="message">Message</label>
                             </div>
                         </div>
                         <div class="col-12 text-center">
-                            <button class="btn btn-primary w-100 py-3" type="submit">Submit Now</button>
+                            <button class="btn btn-primary w-100 py-3" onclick="contact()">Submit Now</button>
                         </div>
                     </div>
                 </div>
@@ -780,6 +764,69 @@
     </div>
     <!-- Footer End -->
 
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Ganapathy Export And Import
+                    </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-12 col-md-6 my-2">
+                            <input type="text" class="form-control name" value="" placeholder="Enter Your Name" />
+                        </div>
+                        <div class="col-12 col-md-6 my-2">
+                            <input type="number" class="form-control number" value="" placeholder="Enter Your Number" />
+                        </div>
+                        <div class="col-12  my-2">
+                            <input type="email" class="form-control email" value="" placeholder="Enter Your Email" />
+                        </div>
+    
+    
+    
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" onclick="go()" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function contact() {
+            var na = document.querySelector(".name").value;
+            var em = document.querySelector(".email").value;
+            var phone = document.querySelector(".phone").value;
+            var mes = document.querySelector(".message").value;
+            var url1 = "https://wa.me/918012851037?text=" +
+                "Name: " +
+                na + " " +
+                "Email: " +
+                em + " " +
+                "Phone :" + phone +
+                "Message :" + mes;
+            window.open(url1, "_blank").focus();
+        }
+    </script>
+    
+    <script>
+        function go() {
+            var name = document.querySelector(".name").value;
+            var email = document.querySelector(".email").value;
+            var number = document.querySelector(".number").value;
+            var url = "https://wa.me/918012851037?text=" +
+                "Name: " +
+                name + " " +
+                "Number: " +
+                number + " " +
+                "Email :" + email;
+            window.open(url, "_blank").focus();
+        }
+    </script>
 
     <!-- Copyright Start -->
     <div class="container-fluid copyright bg-dark text-white-50 py-4">
