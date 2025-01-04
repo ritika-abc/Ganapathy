@@ -97,7 +97,7 @@
 }
 
 .icon-box-primary::before {
-    background: #089000;
+    background: #94510e;
 }
 
 .icon-box-light::before {
@@ -241,10 +241,10 @@ p{
 
 /*** Features ***/
 .feature {
-    /* background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../image/banner1.jpg) left center no-repeat; */
+    background: linear-gradient(rgba(3, 27, 78, .3), rgba(3, 27, 78, .3)), url(../images/banner/note.jpg) left center no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    background-color: #f4f5e4;
+    /* background-attachment: fixed; */
+    /* background-color: #e3c7a8; */
 }
 
 
@@ -395,13 +395,14 @@ p{
     /* background: black; */
     /* background: #089000; */
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.555),rgba(0, 0, 0, 0.712)), url("../images/banner/note2.jpg");
+    background-image:  url("../images/banner/bg.png");
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.555),rgba(0, 0, 0, 0.712)), url("../images/banner/note2.jpg"); */
     height: 100%;
     background-size: cover;
     background-attachment: fixed;
     left: 0px;
     top: 0px;
-    clip-path: polygon(0 0, 100% 0, 100% 30%, 0 70%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 30%, 0 70%); */
     z-index: -1;
 }
 
@@ -423,7 +424,7 @@ p{
     bottom: 0;
     transition: .5s;
     /* background: #000000; */
-    background: #e3c7a8
+    background: #e3c7a87e
     /* background: #94510e; */
 }
 
@@ -440,13 +441,10 @@ p{
 
 .service-item:hover h5,
 .service-item:hover p {
-    color: var(--bs-white);
+    color: #94510e;
 }
 
-.service-item:hover .icon-box-primary::before {
-    background: var(--bs-dark);
-}
-
+ 
 .service-item:hover .icon-box-primary i {
     color: var(--bs-white) !important;
 }
